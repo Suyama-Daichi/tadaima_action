@@ -5,6 +5,7 @@
   "main": "app.js",
   "dependencies": {},
   "devDependencies": {
+    "@types/aws-lambda": "^8.10.51",
     "chai": "^4.2.0",
     "mocha": "^6.1.4"
   },
