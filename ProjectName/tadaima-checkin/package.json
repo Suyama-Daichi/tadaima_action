@@ -12,6 +12,7 @@
   "scripts": {
     "build": "tsc && cp package.json ./tadaima-checkin",
     "start": "npm run build && sam local invoke -e events\\event.json --debug-port 3000  HelloWorldFunction",
+    "deploy": "sam deploy",
     "test": "mocha tests/unit/"
   },
   "repository": {
