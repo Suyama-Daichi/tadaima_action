@@ -8,12 +8,12 @@
             "cwd": "${workspaceFolder}/ProjectName",
             "program": "${file}",
             "outFiles": [
-                "${workspaceFolder}/ProjectName/hello-world/**/*.js"
+                "${workspaceFolder}/ProjectName/tadaima-checkin/**/*.js"
             ],
             "request": "attach",
             "address": "localhost",
             "port": 3000,
-            "localRoot": "${workspaceRoot}/ProjectName/hello-world",
+            "localRoot": "${workspaceRoot}/ProjectName/tadaima-checkin",
             "remoteRoot": "/var/task",
             "protocol": "inspector",
             "stopOnEntry": false

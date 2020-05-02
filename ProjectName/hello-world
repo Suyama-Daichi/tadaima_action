@@ -10,7 +10,7 @@
     "mocha": "^6.1.4"
   },
   "scripts": {
-    "build": "tsc && cp package.json ./hello-world",
+    "build": "tsc && cp package.json ./tadaima-checkin",
     "start": "npm run build && sam local invoke -e events\\event.json --debug-port 3000  HelloWorldFunction",
     "test": "mocha tests/unit/"
   },
