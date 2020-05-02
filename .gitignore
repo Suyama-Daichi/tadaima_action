@@ -112,3 +112,5 @@ NatureRemoController/.aws-sam
 NatureRemoController/dist
 
 # End of https://www.gitignore.io/api/node
+ProjectName/package-lock.json
+ProjectName/package-lock.json
