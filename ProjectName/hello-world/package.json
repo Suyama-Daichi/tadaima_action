@@ -1,0 +1,26 @@
+{
+  "name": "project-name",
+  "version": "1.0.0",
+  "description": "AWS SAM + Typescriptのプロジェクトテンプレート",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  },
+  "scripts": {
+    "build": "tsc && cp package.json ./hello-world",
+    "start": "npm run build && sam local invoke -e events\\event.json --debug-port 3000  HelloWorldFunction",
+    "test": "mocha tests/unit/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suyama-Daichi/AWS_SAM-Typescript-Templete.git"
+  },
+  "author": "Suyama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Suyama-Daichi/AWS_SAM-Typescript-Templete/issues"
+  },
+  "homepage": "https://github.com/Suyama-Daichi/AWS_SAM-Typescript-Templete#readme"
+}

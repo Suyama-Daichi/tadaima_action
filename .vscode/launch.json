@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "name": "Launch TypeScript",
+            "preLaunchTask": "Compile TypeScript",
+            "cwd": "${workspaceFolder}/ProjectName",
+            "program": "${file}",
+            "outFiles": [
+                "${workspaceFolder}/ProjectName/hello-world/**/*.js"
+            ],
+            "request": "attach",
+            "address": "localhost",
+            "port": 3000,
+            "localRoot": "${workspaceRoot}/ProjectName/hello-world",
+            "remoteRoot": "/var/task",
+            "protocol": "inspector",
+            "stopOnEntry": false
+        }
+    ]
+}
